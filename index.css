@@ -1,0 +1,83 @@
+*{
+    margin: 0 auto;
+}
+h1{
+    font-size: 2.2em;
+    padding: 1em;
+}
+
+.container{
+    background-image: linear-gradient(to bottom right, maroon,hotpink,rgb(240, 73, 101));
+    width: 100vw;
+    background-color: pink;
+    min-height: 100vh;
+    text-align: center;
+}
+input{
+    margin: 1em;
+    border-radius: 2em;
+    padding: 1em;
+    width: 80%;
+    border: none;
+    border-bottom: 1px dotted black;
+    background-color: pink;
+    text-align: center;
+    font-size: 1.1em;
+}
+#btn{
+    margin: 1em;
+    padding: 2em;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    text-align: left;
+    width: 80%;
+    background-color: rgba(219, 175, 194, 0.753);
+    margin-top: .5em;
+    padding: .7em;
+    border-radius: 4em;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+ul .checked{
+    text-decoration: line-through;
+}
+ul .design, .design-2{
+    cursor: pointer;    
+}
+ul .design {
+    color: green;
+}
+
+ul .design-2 {
+
+    color: red;
+    
+}
+
+@media screen and (max-width: 100px){
+    .container{
+        max-width: 100%;
+    }
+ 
+} 
+
+@media (min-width: 590px){
+    
+    body{
+        background-image: linear-gradient(to bottom right, maroon,hotpink,rgb(240, 73, 101));  
+    }
+    .container{
+        max-width: 400px;
+        height: 90vh;
+        background-image: linear-gradient( to bottom,pink ,pink, pink);
+    }
+    input{
+        background-color: hotpink;
+    }
+    
+}
